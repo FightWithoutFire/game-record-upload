@@ -24,7 +24,7 @@ var ossClient OssClient
 
 func init() {
 
-	ossClient = OssClient{}
+	ossClient = MClient
 	userPath, err := os.UserHomeDir()
 	if err != nil {
 		fmt.Printf("get user path error \n")
