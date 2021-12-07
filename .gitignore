@@ -21,3 +21,5 @@
 # vendor/
 alioss.config
 minio.config
+**/oss_ali.config
+**/oss_minio.config
